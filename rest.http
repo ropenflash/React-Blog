@@ -1,0 +1,18 @@
+
+
+
+POST http://localhost:8081/api/articles/underscore.js/add-comment HTTP/1.1
+content-type:  application/json
+
+{
+    "name":"Khushi",
+    "text":"Nice effort"
+}
+
+###
+
+GET http://localhost:8081/api/articles/learn-react HTTP/1.1
+
+###
+POST http://localhost:8081/api/articles/underscore.js/upvote HTTP/1.1
+

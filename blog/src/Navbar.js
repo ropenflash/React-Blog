@@ -5,7 +5,7 @@ import './Navbar.css'
 const Navbar=()=>{
     
     return(
-        <div className="container">
+        <div className="container2">
         <nav>
         <ul >
         <li className="navbar-li li"><Link className="anchor anchor-hover" to="/">Home</Link></li>

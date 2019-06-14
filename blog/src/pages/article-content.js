@@ -1,19 +1,19 @@
 export const articles=[{
     name:'learn-react',
-    title:'the fast way to learn react',
+    title:'React Chapter 1',
     content:[
-        'Welcome to new lesson'
+        'explaning types of components understanding state management'
         ]
     },
     {
     name:'learn-redux',
-    title:'the fast way to learn redux',
+    title:'Chapter 3 Redux',
     content:[
-        'Welcome to new lesson'
+        'Redux explaining limitation of MVC model Actions Dispatch Store and View'
         ]
     },
      {
-    name:'underscore.js ',
+    name:'underscore',
     title:'functional javascript library',
     content:[
         'amazing library'

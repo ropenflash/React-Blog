@@ -11,8 +11,8 @@ import {BrowserRouter as Router, Route,Switch} from 'react-router-dom'
 function App() {
   return (
     <Router>
-      <div className="App">
       <Navbar/>
+      <div className="App">
       <Switch>
       <Route exact path="/" component={HomePage}/>
       <Route  path="/about" component={AboutPage}/>
