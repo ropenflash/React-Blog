@@ -1,9 +1,11 @@
 import express from 'express'
 import bodyParser from 'body-parser'
 import withDB from '../db/db'
+import path from 'path'
 
 const app=express()
 
+app.use(express.static(path.join(__dirname,'/build')))
 app.use(bodyParser.json())
 
 app.get('/api/articles/:name',async(req,res)=>{
@@ -50,7 +52,10 @@ app.post('/api/articles/:name/add-comment',(req,res)=>{
     
 })
 
+app.get('*',(req,res)=>{
+    res.sendFile(path.join(__dirname+'/build/index.html'))
+})
 
-app.listen(8081,()=>{
-    console.log('listenting on port 8081')
+app.listen(8080,()=>{
+    console.log('listenting on port 8080')
 })
