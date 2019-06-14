@@ -1,0 +1,41 @@
+.navbar-li{
+    
+    display: inline-block;
+    margin:0 10px;
+    font-size: 35px;
+    
+    
+    list-style: none;
+}
+
+.anchor{
+    text-decoration: none;
+    color:white;
+}
+
+.article{
+text-decoration: none;
+    color:black;
+    }
+
+.li:hover{
+    
+    background:white;
+}
+
+.anchor-hover:hover{
+    color:black;
+}
+
+nav{
+    margin:0;
+}
+
+ul{
+    margin:0;
+}
+
+.container{
+    margin:0;
+ background:black;
+}
